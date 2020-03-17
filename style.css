@@ -1,0 +1,380 @@
+body {
+	background-color:#396b83;
+	color:#333333;
+	font-family:Arial;
+	font-size:12px;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+#ssylka{
+    
+}
+#Data{
+    height: 25px;
+    width: 100px;
+position: relative;
+left: 750px;
+bottom: 35px;
+
+
+
+    
+}
+#Data p{
+  color: #000000;
+padding-bottom: 0;
+    
+}
+#aa{
+    padding-top: 2px;
+    height: 146px;
+    width: 292px;
+    position: relative;
+    float: left;
+}
+#ab{
+    padding-top: 2px;
+    height: 146px;
+    width: 292px;
+    position: relative;
+    float:right;
+}
+#a{
+    height: 150px;
+    width: 595px;
+    position:relative;
+    float: bottom;
+}
+#b{
+    z-index: 0;
+    background-image:url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0 0;
+    background-attachment:fixed ;
+    
+}
+#parustnik{
+    
+    position: absolute;
+    right:625px ;
+    top: 475px;
+    	margin:0;
+	padding:0;
+        outline: 1px solid #000000;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+}
+#parustnik1{
+    
+    position: absolute;
+    right:225px ;
+    top: 475px;
+    	margin:0;
+	padding:0;
+        outline: 1px solid #000000;
+}
+#centertext{
+    text-align: center;
+      
+}
+
+#page {
+	background-image:url(images/page.png);
+	background-repeat:repeat-y;
+	width:940px;
+	margin:auto;
+	padding:auto;
+	text-align:left;
+}
+#page2{
+	background-image:url(images/page2.png);
+	background-repeat:repeat-y;
+	width:940px;
+	margin:auto;
+	padding:auto;
+	text-align:left;
+  
+}
+#headerh1{
+    padding-top: 20px;
+    
+    
+}
+#kubik{
+    
+    text-decoration-color:#FFFFFF ;
+    text-align: center;
+}
+#abzac{
+    text-align: center;
+    
+}
+
+.abzac1{
+     color:#555555 ;
+}
+.marker{
+   /* outline: 1px solid #666;  Параметры рамки */
+    padding-left: 0;
+    list-style: none;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 5px;
+}
+#header {
+	width:880px;
+	height:85px;
+	background-image:url(images/header3.png);
+	clear:both;
+	padding-top:50px;
+	padding-left:79px;
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+    
+}
+
+#menulinks {
+	width:920px;
+	height:46px;
+	background-image:url(images/menulinks.png);
+	clear:both;
+	padding-left:20px;
+}
+#menulinks2{
+	width:920px;
+	height:46px;
+	background-image:url(images/menulinks2.png);
+	clear:both;
+	padding-left:20px;
+}
+#menulinks2 a {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:12px;
+	height:25px;
+	display:block;
+	color:#FFFFFF;
+	background-image:url(images/menulinks.png);
+	background-position:top center;
+	text-decoration:none;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+#menulinks2 a:hover {
+	background-image:url(images/menuhover.png);
+	text-decoration:none;
+}
+#menulinks a {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:12px;
+	height:25px;
+	display:block;
+	color:#FFFFFF;
+	background-image:url(images/menulinks.png);
+	background-position:top center;
+	text-decoration:none;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#menulinks a:hover {
+	background-image:url(images/menuhover.png);
+	text-decoration:none;
+}
+
+.menulines {
+	width:7px;
+	height:30px;
+	margin-top:-1px;
+	float:left;
+	display:block;
+	background-image:url(images/menulines.png);
+}
+
+.newsdate {
+	padding-top:6px;
+	padding-bottom:4px;
+	color:#eaeaea;
+	font-weight:bold;
+}
+
+a {
+	text-decoration:none;
+	color:#555555;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#mainarea {
+	padding-left:20px;
+	padding-right:30px;
+}
+
+#contentarea {
+	width:590px;
+	line-height:18px;
+	float:right;
+	padding-bottom:25px;
+	padding-right:10px;
+   /* outline: 1px solid #666;  Параметры рамки   outline: 1px solid #000000;*/
+}
+#contentarea2{
+	width:590px;
+	line-height:18px;
+	
+	padding-bottom:25px;
+	padding-right:10px;
+   /* outline: 1px solid #666;  Параметры рамки   outline: 1px solid #000000;*/
+}
+#contentarea2 p{
+	font-family:Arial;
+	font-size:12px;
+	text-align:left;
+    padding-left: 160px;
+    padding-bottom: 16px;
+}
+#contentarea2 img{
+padding-left: 170px;
+}
+#sidebar {
+	width:240px;
+	float:left;
+	line-height:18px;
+	color:#555555;
+	padding-left:15px;
+}
+
+.sidebarheader1 {
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:5px;
+   	margin-left:20px;
+	background-image:url(images/sidebarheader1.png);
+	background-position:top right;
+	height:28px;
+	width:263px;
+	padding-left:35px;
+	padding-top:3px;
+	margin-left:-35px;
+    
+}
+
+
+.sidebarheader {
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-image:url(images/sidebarheader.png);
+	background-position:top right;
+	height:31px;
+	width:263px;
+	padding-left:35px;
+	padding-top:11px;
+	margin-left:-35px;
+    margin-top: 7px;
+}
+ h1 {
+	font-size:28px;
+	margin:0;
+	color:#FFFFFF;
+}
+
+.description {
+	font-size:15px;
+	margin:0;
+	padding-left:5px;
+	color:#FFFFFF;
+}
+
+#footer {
+	width:885px;
+	padding-top:45px;
+	padding-left:55px;
+	padding-bottom:0px;
+	color:#FFFFFF;
+	font-size:12px;
+	line-height:15px;
+	clear:both;
+	background-image:url(images/footer.png);  
+    background-repeat: no-repeat;
+   /* outline: 1px solid #ff0000;*/
+}
+#footer2 {
+	width:885px;
+	padding-top:40px;
+	padding-left:55px;
+	padding-bottom:10px;
+	color:#FFFFFF;
+	font-size:12px;
+	line-height:15px;
+	clear:both;
+	background-image:url(images/footer2.png);
+}
+#footer a {
+	color:#FFFFFF;
+}
+#footer2 a{
+	color:#FFFFFF;
+}
+
+h2 {
+	font-size:16px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #CCCCCC;
+	margin-bottom:5px;
+	color:#555555;
+}
+
+/*---------------------------------------*/
+
+
+#faze{
+width:500px;
+}
+.boris{
+font-weight:bold;
+margin-left:10px;
+}
+fieldset{
+padding: 10px;
+border:1px solid #cccccc;
+margin:10px;
+background-color:#FCFCFC;
+}
+ textarea{
+border:1px solid #333333;
+background-color:#F4F9FF;
+width:480px;
+margin:10px;
+font:15px "Comic Sans MS";
+}
+ textarea:focus {
+border:2px solid #1351B4;
+background-color:#ffffff;
+}
+.inpyt{
+border:1px solid #333333;
+height:27px;
+background-image:url(../images/inputbg.jpg);
+background-repeat:repeat-x;
+width:300px;
+font:15px "Comic Sans MS";
+}
+
+.inpyt:focus{
+border:2px solid #1351B4;
+background:none;
+background-color:#ffffff;
+}
+
